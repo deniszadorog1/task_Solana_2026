@@ -1,0 +1,24 @@
+[toolchain]
+anchor_version = "0.29.0"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.devnet]
+resource_manager = "28zTRgf8DT1Qyf1ADDirTK5c4tAEEKfdsBSct5mUJ4za"
+magic_token = "2M3Kv3ZQZ3Hxmacx49NPFnqXktGkv1Xcb8dPFNnLtqJA"
+search = "EC7PmYuSvVtDghHQwdLe4eraFtAGGMyKQAuDetTGdZci"
+item_nft = "34pqnbRPyWF8okanpnkGjKPEgy9A16sqfcTRHYnXTi8W"
+crafting = "CTbcdVmoVAU4CbkgSKXzEAu7EEgRGNAmivY8XhNQqfq4"
+marketplace = "g6rJSQaH9qjy8Hxb8ZdPkg7BAQEFpkmeeEeLCeR8wbZ"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/codespace/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
