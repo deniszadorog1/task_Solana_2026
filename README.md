@@ -124,6 +124,17 @@
 | marketplace | Купівля/продаж предметів за MagicToken |
 | magic_token | Програма для мінту MagicToken (тільки через Marketplace) |
 
+### Program IDs (Devnet)
+
+| Програма | Program ID |
+|----------|------------|
+| resource_manager | `28zTRgf8DT1Qyf1ADDirTK5c4tAEEKfdsBSct5mUJ4za` |
+| magic_token | `2M3Kv3ZQZ3Hxmacx49NPFnqXktGkv1Xcb8dPFNnLtqJA` |
+| search | `EC7PmYuSvVtDghHQwdLe4eraFtAGGMyKQAuDetTGdZci` |
+| item_nft | `34pqnbRPyWF8okanpnkGjKPEgy9A16sqfcTRHYnXTi8W` |
+| crafting | `CTbcdVmoVAU4CbkgSKXzEAu7EEgRGNAmivY8XhNQqfq4` |
+| marketplace | `g6rJSQaH9qjy8Hxb8ZdPkg7BAQEFpkmeeEeLCeR8wbZ` |
+
 ### Структура акаунтів (PDA)
 
 ```rust
